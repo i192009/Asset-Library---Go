@@ -1,0 +1,257 @@
+[L]2023-08-30 10:32:44.240|6_34967684680516122| INF |Aseed-PC|pool-1-thread-1|app.go|45|0|System|Nil|"framework initialize ..."| 
+[L]2023-08-30 10:32:44.242|7_34967684680581658| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:user:localhost:9602"| 
+[L]2023-08-30 10:32:44.242|8_34967684680647194| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:privilege:localhost:9802"| 
+[L]2023-08-30 10:32:44.242|9_34967684680712730| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:account:localhost:9502"| 
+[L]2023-08-30 10:32:44.243|10_34967684680778266| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:organization:<nil>"| 
+[L]2023-08-30 10:32:44.243|11_34967684680843802| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:producer:<nil>"| 
+[L]2023-08-30 10:36:26.606|7_34968057739084314| INF |Aseed-PC|pool-1-thread-1|app.go|45|0|System|Nil|"framework initialize ..."| 
+[L]2023-08-30 10:36:26.607|8_34968057739149850| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:privilege:localhost:9802"| 
+[L]2023-08-30 10:36:26.608|9_34968057739215386| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:account:localhost:9502"| 
+[L]2023-08-30 10:36:26.608|10_34968057739280922| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:organization:<nil>"| 
+[L]2023-08-30 10:36:26.608|11_34968057739346458| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:producer:<nil>"| 
+[L]2023-08-30 10:36:26.608|12_34968057739411994| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:user:localhost:9602"| 
+[L]2023-08-30 10:36:26.612|13_34968057755468314| INF |Aseed-PC|pool-1-thread-1|database.go|33|0|System|Nil|"initialize database ..."| 
+[L]2023-08-30 10:36:26.612|14_34968057755533850| INF |Aseed-PC|pool-1-thread-1|database.go|35|0|System|Nil|"initialize mongo ..."| 
+[L]2023-08-30 10:36:26.612|15_34968057755599386| INF |Aseed-PC|pool-1-thread-1|database.go|45|0|System|Nil|"mongo connectstring = 'mongodb://localhost'"| 
+[L]2023-08-30 10:36:27.241|16_34968058812432922| INF |Aseed-PC|pool-1-thread-1|database.go|73|0|System|Nil|"initialize mysql ..."| 
+[L]2023-08-30 10:36:27.255|17_34968058829210138| INF |Aseed-PC|pool-1-thread-1|database.go|138|0|System|Nil|"initialize redis ..."| 
+[L]2023-08-30 10:36:27.255|18_34968058829275674| INF |Aseed-PC|pool-1-thread-1|database.go|168|0|System|Nil|"redis host = '[localhost:6379]'"| 
+[L]2023-08-30 10:36:27.259|19_34968058829341210| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'class' database = []"| 
+[L]2023-08-30 10:36:27.260|20_34968058845987354| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tag' database = []"| 
+[L]2023-08-30 10:36:27.261|21_34968058846052890| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'config' database = []"| 
+[L]2023-08-30 10:36:27.261|22_34968058846118426| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'asset' database = []"| 
+[L]2023-08-30 10:36:27.261|23_34968058846183962| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'publicAsset' database = []"| 
+[L]2023-08-30 10:36:27.261|24_34968058846249498| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'privateAsset' database = []"| 
+[L]2023-08-30 10:36:27.261|25_34968058846315034| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tenantAsset' database = []"| 
+[L]2023-08-30 10:36:27.261|26_34968058846380570| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'instanceScopeID' database = []"| 
+[L]2023-08-30 11:45:28.008|7_34975005855318554| INF |Aseed-PC|pool-1-thread-1|app.go|45|0|System|Nil|"framework initialize ..."| 
+[L]2023-08-30 11:45:28.009|8_34975005855384090| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:user:localhost:9602"| 
+[L]2023-08-30 11:45:28.010|9_34975005871702554| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:privilege:localhost:9802"| 
+[L]2023-08-30 11:45:28.011|10_34975005871768090| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:account:localhost:9502"| 
+[L]2023-08-30 11:45:28.011|11_34975005871833626| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:organization:<nil>"| 
+[L]2023-08-30 11:45:28.011|12_34975005871899162| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:producer:<nil>"| 
+[L]2023-08-30 11:45:28.015|13_34975005871964698| INF |Aseed-PC|pool-1-thread-1|database.go|33|0|System|Nil|"initialize database ..."| 
+[L]2023-08-30 11:45:28.015|14_34975005872030234| INF |Aseed-PC|pool-1-thread-1|database.go|35|0|System|Nil|"initialize mongo ..."| 
+[L]2023-08-30 11:45:28.015|15_34975005872095770| INF |Aseed-PC|pool-1-thread-1|database.go|45|0|System|Nil|"mongo connectstring = 'mongodb://localhost'"| 
+[L]2023-08-30 11:45:28.637|16_34975006911889946| INF |Aseed-PC|pool-1-thread-1|database.go|73|0|System|Nil|"initialize mysql ..."| 
+[L]2023-08-30 11:45:28.640|17_34975006928667162| INF |Aseed-PC|pool-1-thread-1|database.go|138|0|System|Nil|"initialize redis ..."| 
+[L]2023-08-30 11:45:28.640|18_34975006928732698| INF |Aseed-PC|pool-1-thread-1|database.go|168|0|System|Nil|"redis host = '[localhost:6379]'"| 
+[L]2023-08-30 11:45:28.644|19_34975006928798234| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'class' database = []"| 
+[L]2023-08-30 11:45:28.645|20_34975006928863770| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tag' database = []"| 
+[L]2023-08-30 11:45:28.645|21_34975006928929306| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'config' database = []"| 
+[L]2023-08-30 11:45:28.645|22_34975006928994842| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'asset' database = []"| 
+[L]2023-08-30 11:45:28.645|23_34975006929060378| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'publicAsset' database = []"| 
+[L]2023-08-30 11:45:28.646|24_34975006929125914| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'privateAsset' database = []"| 
+[L]2023-08-30 11:45:28.646|25_34975006929191450| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tenantAsset' database = []"| 
+[L]2023-08-30 11:45:28.646|26_34975006929256986| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'instanceScopeID' database = []"| 
+[L]2023-08-30 12:09:57.814|7_34977471786975770| INF |Aseed-PC|pool-1-thread-1|app.go|45|0|System|Nil|"framework initialize ..."| 
+[L]2023-08-30 12:09:57.815|8_34977471787041306| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:user:localhost:9602"| 
+[L]2023-08-30 12:09:57.815|9_34977471787106842| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:privilege:localhost:9802"| 
+[L]2023-08-30 12:09:57.816|10_34977471787172378| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:account:localhost:9502"| 
+[L]2023-08-30 12:09:57.816|11_34977471787237914| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:organization:<nil>"| 
+[L]2023-08-30 12:09:57.816|12_34977471787303450| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:producer:<nil>"| 
+[L]2023-08-30 12:09:57.819|13_34977471787368986| INF |Aseed-PC|pool-1-thread-1|database.go|33|0|System|Nil|"initialize database ..."| 
+[L]2023-08-30 12:09:57.820|14_34977471803687450| INF |Aseed-PC|pool-1-thread-1|database.go|35|0|System|Nil|"initialize mongo ..."| 
+[L]2023-08-30 12:09:57.820|15_34977471803752986| INF |Aseed-PC|pool-1-thread-1|database.go|45|0|System|Nil|"mongo connectstring = 'mongodb://localhost'"| 
+[L]2023-08-30 12:09:58.442|16_34977472843874842| INF |Aseed-PC|pool-1-thread-1|database.go|73|0|System|Nil|"initialize mysql ..."| 
+[L]2023-08-30 12:09:58.444|17_34977472843940378| INF |Aseed-PC|pool-1-thread-1|database.go|138|0|System|Nil|"initialize redis ..."| 
+[L]2023-08-30 12:09:58.444|18_34977472844005914| INF |Aseed-PC|pool-1-thread-1|database.go|168|0|System|Nil|"redis host = '[localhost:6379]'"| 
+[L]2023-08-30 12:09:58.448|19_34977472844071450| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'class' database = []"| 
+[L]2023-08-30 12:09:58.449|20_34977472844136986| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tag' database = []"| 
+[L]2023-08-30 12:09:58.449|21_34977472844202522| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'config' database = []"| 
+[L]2023-08-30 12:09:58.450|22_34977472860652058| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'asset' database = []"| 
+[L]2023-08-30 12:09:58.450|23_34977472860717594| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'publicAsset' database = []"| 
+[L]2023-08-30 12:09:58.450|24_34977472860783130| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'privateAsset' database = []"| 
+[L]2023-08-30 12:09:58.450|25_34977472860848666| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tenantAsset' database = []"| 
+[L]2023-08-30 12:09:58.450|26_34977472860914202| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'instanceScopeID' database = []"| 
+[L]2023-08-30 12:20:11.590|7_34978501538873882| INF |Aseed-PC|pool-1-thread-1|app.go|45|0|System|Nil|"framework initialize ..."| 
+[L]2023-08-30 12:20:11.591|8_34978501538939418| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:user:localhost:9602"| 
+[L]2023-08-30 12:20:11.592|9_34978501539004954| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:privilege:localhost:9802"| 
+[L]2023-08-30 12:20:11.592|10_34978501539070490| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:account:localhost:9502"| 
+[L]2023-08-30 12:20:11.594|11_34978501539136026| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:organization:<nil>"| 
+[L]2023-08-30 12:20:11.594|12_34978501539201562| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:producer:<nil>"| 
+[L]2023-08-30 12:20:11.598|13_34978501539267098| INF |Aseed-PC|pool-1-thread-1|database.go|33|0|System|Nil|"initialize database ..."| 
+[L]2023-08-30 12:20:11.599|14_34978501539332634| INF |Aseed-PC|pool-1-thread-1|database.go|35|0|System|Nil|"initialize mongo ..."| 
+[L]2023-08-30 12:20:11.599|15_34978501539398170| INF |Aseed-PC|pool-1-thread-1|database.go|45|0|System|Nil|"mongo connectstring = 'mongodb://localhost'"| 
+[L]2023-08-30 12:20:12.215|16_34978502579061274| INF |Aseed-PC|pool-1-thread-1|database.go|73|0|System|Nil|"initialize mysql ..."| 
+[L]2023-08-30 12:20:12.217|17_34978502579126810| INF |Aseed-PC|pool-1-thread-1|database.go|138|0|System|Nil|"initialize redis ..."| 
+[L]2023-08-30 12:20:12.217|18_34978502579192346| INF |Aseed-PC|pool-1-thread-1|database.go|168|0|System|Nil|"redis host = '[localhost:6379]'"| 
+[L]2023-08-30 12:20:12.223|19_34978502595838490| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'class' database = []"| 
+[L]2023-08-30 12:20:12.224|20_34978502595904026| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tag' database = []"| 
+[L]2023-08-30 12:20:12.224|21_34978502595969562| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'config' database = []"| 
+[L]2023-08-30 12:20:12.224|22_34978502596035098| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'asset' database = []"| 
+[L]2023-08-30 12:20:12.224|23_34978502596100634| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'publicAsset' database = []"| 
+[L]2023-08-30 12:20:12.224|24_34978502596166170| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'privateAsset' database = []"| 
+[L]2023-08-30 12:20:12.225|25_34978502596231706| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tenantAsset' database = []"| 
+[L]2023-08-30 12:20:12.225|26_34978502596297242| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'instanceScopeID' database = []"| 
+[L]2023-08-30 12:22:39.809|7_34978750194385434| INF |Aseed-PC|pool-1-thread-1|app.go|45|0|System|Nil|"framework initialize ..."| 
+[L]2023-08-30 12:22:39.810|8_34978750210769434| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:user:localhost:9602"| 
+[L]2023-08-30 12:22:39.810|9_34978750210834970| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:privilege:localhost:9802"| 
+[L]2023-08-30 12:22:39.810|10_34978750210900506| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:account:localhost:9502"| 
+[L]2023-08-30 12:22:39.811|11_34978750210966042| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:storage:localhost:9702"| 
+[L]2023-08-30 12:22:39.811|12_34978750211031578| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:organization:<nil>"| 
+[L]2023-08-30 12:22:39.811|13_34978750211097114| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:producer:<nil>"| 
+[L]2023-08-30 12:22:39.815|14_34978750211162650| INF |Aseed-PC|pool-1-thread-1|database.go|33|0|System|Nil|"initialize database ..."| 
+[L]2023-08-30 12:22:39.815|15_34978750211228186| INF |Aseed-PC|pool-1-thread-1|database.go|35|0|System|Nil|"initialize mongo ..."| 
+[L]2023-08-30 12:22:39.815|16_34978750211293722| INF |Aseed-PC|pool-1-thread-1|database.go|45|0|System|Nil|"mongo connectstring = 'mongodb://localhost'"| 
+[L]2023-08-30 12:22:40.434|17_34978751250956826| INF |Aseed-PC|pool-1-thread-1|database.go|73|0|System|Nil|"initialize mysql ..."| 
+[L]2023-08-30 12:22:40.437|18_34978751251022362| INF |Aseed-PC|pool-1-thread-1|database.go|138|0|System|Nil|"initialize redis ..."| 
+[L]2023-08-30 12:22:40.438|19_34978751251087898| INF |Aseed-PC|pool-1-thread-1|database.go|168|0|System|Nil|"redis host = '[localhost:6379]'"| 
+[L]2023-08-30 12:22:40.442|20_34978751267734042| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'class' database = []"| 
+[L]2023-08-30 12:22:40.442|21_34978751267799578| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tag' database = []"| 
+[L]2023-08-30 12:22:40.442|22_34978751267865114| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'config' database = []"| 
+[L]2023-08-30 12:22:40.442|23_34978751267930650| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'asset' database = []"| 
+[L]2023-08-30 12:22:40.443|24_34978751267996186| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'publicAsset' database = []"| 
+[L]2023-08-30 12:22:40.443|25_34978751268061722| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'privateAsset' database = []"| 
+[L]2023-08-30 12:22:40.443|26_34978751268127258| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tenantAsset' database = []"| 
+[L]2023-08-30 12:22:40.443|27_34978751268192794| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'instanceScopeID' database = []"| 
+[L]2023-08-30 12:22:40.447|28_34978751268258330| DBG |Aseed-PC|pool-1-thread-2|bus.go|96|func1|System|Nil|"call log.info args = [Listening and serving HTTP on listener what's bind with address  localhost:8085]"| 
+[L]2023-08-30 12:22:40.447|29_34978751268323866| INF |Aseed-PC|pool-1-thread-2|value.go|586|call|System|Nil|"Listening and serving HTTP on listener what's bind with address localhost:8085"| 
+[L]2023-08-30 12:33:04.887|30_34979798904209946| DBG |Aseed-PC|pool-1-thread-3|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-08-30 12:33:04.887|31_34979798904275482| DBG |Aseed-PC|pool-1-thread-4|bus.go|96|func1|System|Nil|"call ExitRpcServer args = []"| 
+[L]2023-08-30 12:33:04.887|32_34979798904341018| DBG |Aseed-PC|pool-1-thread-5|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-08-30 12:33:04.888|33_34979798904406554| DBG |Aseed-PC|pool-1-thread-6|bus.go|96|func1|System|Nil|"call log.info args = [grpc server is closed.]"| 
+[L]2023-08-30 12:33:04.887|34_34979798904472090| DBG |Aseed-PC|pool-1-thread-7|bus.go|96|func1|System|Nil|"call ExitWebServer args = []"| 
+[L]2023-08-30 12:33:04.888|35_34979798904537626| WAR |Aseed-PC|pool-1-thread-8|bus.go|85|Publish|System|Nil|"not found handlers in topic:RpcServerExited"| 
+[L]2023-08-30 12:33:04.888|36_34979798904603162| DBG |Aseed-PC|pool-1-thread-9|bus.go|96|func1|System|Nil|"call log.info args = [grpc server is closeing...]"| 
+[L]2023-08-30 12:33:04.888|37_34979798904668698| INF |Aseed-PC|pool-1-thread-6|value.go|586|call|System|Nil|"grpc server is closed."| 
+[L]2023-08-30 12:33:04.888|38_34979798904734234| DBG |Aseed-PC|pool-1-thread-5|bus.go|100|1|System|Nil|"call Quit error, stack frames :
+    Error Message: reflect: Call with too many input arguments
+    E:/Projects/Office/asset-library/framework/bus/bus.go:100 (0x11eff99)
+    C:/Program Files/Go/src/runtime/panic.go:884 (0xb7c72)
+    C:/Program Files/Go/src/reflect/value.go:432 (0x152fe4)
+    C:/Program Files/Go/src/reflect/value.go:370 (0x15129b)
+    E:/Projects/Office/asset-library/framework/bus/bus.go:104 (0x11efed4)
+    C:/Program Files/Go/src/runtime/asm_amd64.s:1598 (0xe7f40)
+"| 
+[L]2023-08-30 12:33:04.888|39_34979798904799770| DBG |Aseed-PC|pool-1-thread-10|bus.go|96|func1|System|Nil|"call log.info args = [web server is closed.]"| 
+[L]2023-08-30 12:33:04.889|40_34979798904865306| INF |Aseed-PC|pool-1-thread-9|value.go|586|call|System|Nil|"grpc server is closeing..."| 
+[L]2023-08-30 12:33:04.888|41_34979798904930842| DBG |Aseed-PC|pool-1-thread-11|bus.go|96|func1|System|Nil|"call log.error args = [http: Server closed]"| 
+[L]2023-08-30 12:33:04.889|42_34979798920987162| INF |Aseed-PC|pool-1-thread-10|value.go|586|call|System|Nil|"web server is closed."| 
+[L]2023-08-30 12:33:04.888|43_34979798921052698| DBG |Aseed-PC|pool-1-thread-12|bus.go|96|func1|System|Nil|"call WebServerExited args = []"| 
+[L]2023-08-30 12:33:04.887|44_34979798921118234| DBG |Aseed-PC|pool-1-thread-3|bus.go|100|1|System|Nil|"call Quit error, stack frames :
+    Error Message: reflect: Call with too many input arguments
+    E:/Projects/Office/asset-library/framework/bus/bus.go:100 (0x11eff99)
+    C:/Program Files/Go/src/runtime/panic.go:884 (0xb7c72)
+    C:/Program Files/Go/src/reflect/value.go:432 (0x152fe4)
+    C:/Program Files/Go/src/reflect/value.go:370 (0x15129b)
+    E:/Projects/Office/asset-library/framework/bus/bus.go:104 (0x11efed4)
+    C:/Program Files/Go/src/runtime/asm_amd64.s:1598 (0xe7f40)
+"| 
+[L]2023-08-30 12:33:04.890|45_34979798921183770| ERR |Aseed-PC|pool-1-thread-11|value.go|586|call|System|Nil|"http: Server closed"| 
+[L]2023-08-30 12:33:04.890|46_34979798921249306| DBG |Aseed-PC|pool-1-thread-13|bus.go|96|func1|System|Nil|"call log.info args = [Web server is closed. exit code =  0]"| 
+[L]2023-08-30 12:33:04.891|47_34979798921314842| INF |Aseed-PC|pool-1-thread-13|value.go|586|call|System|Nil|"Web server is closed. exit code = 0"| 
+[L]2023-08-30 13:29:49.565|7_34985511009800193| INF |Aseed-PC|pool-1-thread-1|app.go|45|0|System|Nil|"framework initialize ..."| 
+[L]2023-08-30 13:29:49.566|8_34985511009865729| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:user:localhost:9602"| 
+[L]2023-08-30 13:29:49.566|9_34985511009931265| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:privilege:localhost:9802"| 
+[L]2023-08-30 13:29:49.567|10_34985511009996801| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:account:localhost:9502"| 
+[L]2023-08-30 13:29:49.568|11_34985511010062337| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:storage:localhost:9702"| 
+[L]2023-08-30 13:29:49.568|12_34985511010127873| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:organization:<nil>"| 
+[L]2023-08-30 13:29:49.568|13_34985511010193409| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:producer:<nil>"| 
+[L]2023-08-30 13:29:49.570|14_34985511026184193| INF |Aseed-PC|pool-1-thread-1|database.go|33|0|System|Nil|"initialize database ..."| 
+[L]2023-08-30 13:29:49.570|15_34985511026249729| INF |Aseed-PC|pool-1-thread-1|database.go|35|0|System|Nil|"initialize mongo ..."| 
+[L]2023-08-30 13:29:49.570|16_34985511026315265| INF |Aseed-PC|pool-1-thread-1|database.go|45|0|System|Nil|"mongo connectstring = 'mongodb://localhost'"| 
+[L]2023-08-30 13:29:50.195|17_34985512066371585| INF |Aseed-PC|pool-1-thread-1|database.go|73|0|System|Nil|"initialize mysql ..."| 
+[L]2023-08-30 13:29:50.198|18_34985512066437121| INF |Aseed-PC|pool-1-thread-1|database.go|138|0|System|Nil|"initialize redis ..."| 
+[L]2023-08-30 13:29:50.199|19_34985512066502657| INF |Aseed-PC|pool-1-thread-1|database.go|168|0|System|Nil|"redis host = '[localhost:6379]'"| 
+[L]2023-08-30 13:29:50.204|20_34985512083148801| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'class' database = []"| 
+[L]2023-08-30 13:29:50.205|21_34985512083214337| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tag' database = []"| 
+[L]2023-08-30 13:29:50.205|22_34985512083279873| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'config' database = []"| 
+[L]2023-08-30 13:29:50.205|23_34985512083345409| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'asset' database = []"| 
+[L]2023-08-30 13:29:50.205|24_34985512083410945| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'publicAsset' database = []"| 
+[L]2023-08-30 13:29:50.205|25_34985512083476481| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'privateAsset' database = []"| 
+[L]2023-08-30 13:29:50.206|26_34985512083542017| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tenantAsset' database = []"| 
+[L]2023-08-30 13:29:50.206|27_34985512083607553| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'instanceScopeID' database = []"| 
+[L]2023-08-30 13:29:50.209|28_34985512083673089| DBG |Aseed-PC|pool-1-thread-2|bus.go|96|func1|System|Nil|"call log.info args = [Listening and serving HTTP on listener what's bind with address  localhost:8085]"| 
+[L]2023-08-30 13:29:50.209|29_34985512083738625| INF |Aseed-PC|pool-1-thread-2|value.go|586|call|System|Nil|"Listening and serving HTTP on listener what's bind with address localhost:8085"| 
+[L]2023-08-30 14:15:20.021|30_34990091961126913| DBG |Aseed-PC|pool-1-thread-3|bus.go|96|func1|System|Nil|"call ExitWebServer args = []"| 
+[L]2023-08-30 14:15:20.021|31_34990091961192449| DBG |Aseed-PC|pool-1-thread-4|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-08-30 14:15:20.021|32_34990091961257985| DBG |Aseed-PC|pool-1-thread-5|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-08-30 14:15:20.021|33_34990091961323521| DBG |Aseed-PC|pool-1-thread-6|bus.go|96|func1|System|Nil|"call ExitRpcServer args = []"| 
+[L]2023-08-30 14:15:20.022|34_34990091961389057| DBG |Aseed-PC|pool-1-thread-7|bus.go|96|func1|System|Nil|"call WebServerExited args = []"| 
+[L]2023-08-30 14:15:20.022|35_34990091961454593| DBG |Aseed-PC|pool-1-thread-8|bus.go|96|func1|System|Nil|"call log.info args = [grpc server is closed.]"| 
+[L]2023-08-30 14:15:20.022|36_34990091961520129| DBG |Aseed-PC|pool-1-thread-9|bus.go|96|func1|System|Nil|"call log.info args = [grpc server is closeing...]"| 
+[L]2023-08-30 14:15:20.022|37_34990091961585665| DBG |Aseed-PC|pool-1-thread-10|bus.go|96|func1|System|Nil|"call log.info args = [web server is closed.]"| 
+[L]2023-08-30 14:15:20.022|38_34990091961651201| DBG |Aseed-PC|pool-1-thread-5|bus.go|100|1|System|Nil|"call Quit error, stack frames :
+    Error Message: reflect: Call with too many input arguments
+    E:/Projects/Office/asset-library/framework/bus/bus.go:100 (0x11eff99)
+    C:/Program Files/Go/src/runtime/panic.go:884 (0xb7c72)
+    C:/Program Files/Go/src/reflect/value.go:432 (0x152fe4)
+    C:/Program Files/Go/src/reflect/value.go:370 (0x15129b)
+    E:/Projects/Office/asset-library/framework/bus/bus.go:104 (0x11efed4)
+    C:/Program Files/Go/src/runtime/asm_amd64.s:1598 (0xe7f40)
+"| 
+[L]2023-08-30 14:15:20.022|39_34990091961716737| WAR |Aseed-PC|pool-1-thread-11|bus.go|85|Publish|System|Nil|"not found handlers in topic:RpcServerExited"| 
+[L]2023-08-30 14:15:20.023|40_34990091961782273| INF |Aseed-PC|pool-1-thread-8|value.go|586|call|System|Nil|"grpc server is closed."| 
+[L]2023-08-30 14:15:20.022|41_34990091961847809| DBG |Aseed-PC|pool-1-thread-12|bus.go|96|func1|System|Nil|"call log.info args = [Web server is closed. exit code =  0]"| 
+[L]2023-08-30 14:15:20.022|42_34990091961913345| DBG |Aseed-PC|pool-1-thread-4|bus.go|100|1|System|Nil|"call Quit error, stack frames :
+    Error Message: reflect: Call with too many input arguments
+    E:/Projects/Office/asset-library/framework/bus/bus.go:100 (0x11eff99)
+    C:/Program Files/Go/src/runtime/panic.go:884 (0xb7c72)
+    C:/Program Files/Go/src/reflect/value.go:432 (0x152fe4)
+    C:/Program Files/Go/src/reflect/value.go:370 (0x15129b)
+    E:/Projects/Office/asset-library/framework/bus/bus.go:104 (0x11efed4)
+    C:/Program Files/Go/src/runtime/asm_amd64.s:1598 (0xe7f40)
+"| 
+[L]2023-08-30 14:15:20.022|43_34990091961978881| DBG |Aseed-PC|pool-1-thread-13|bus.go|96|func1|System|Nil|"call log.error args = [http: Server closed]"| 
+[L]2023-08-30 14:15:20.023|44_34990091962044417| INF |Aseed-PC|pool-1-thread-10|value.go|586|call|System|Nil|"web server is closed."| 
+[L]2023-08-30 14:15:20.023|45_34990091962109953| INF |Aseed-PC|pool-1-thread-9|value.go|586|call|System|Nil|"grpc server is closeing..."| 
+[L]2023-08-30 14:15:20.024|46_34990091962175489| INF |Aseed-PC|pool-1-thread-12|value.go|586|call|System|Nil|"Web server is closed. exit code = 0"| 
+[L]2023-08-30 14:15:20.024|47_34990091962241025| ERR |Aseed-PC|pool-1-thread-13|value.go|586|call|System|Nil|"http: Server closed"| 
+[L]2023-08-30 14:17:57.621|7_34990356370051073| INF |Aseed-PC|pool-1-thread-1|app.go|45|0|System|Nil|"framework initialize ..."| 
+[L]2023-08-30 14:17:57.622|8_34990356370116609| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:storage:localhost:9702"| 
+[L]2023-08-30 14:17:57.623|9_34990356370182145| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:organization:<nil>"| 
+[L]2023-08-30 14:17:57.623|10_34990356370247681| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:producer:<nil>"| 
+[L]2023-08-30 14:17:57.623|11_34990356370313217| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:user:localhost:9602"| 
+[L]2023-08-30 14:17:57.624|12_34990356370378753| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:privilege:localhost:9802"| 
+[L]2023-08-30 14:17:57.624|13_34990356370444289| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:account:localhost:9502"| 
+[L]2023-08-30 14:17:57.629|14_34990356370509825| INF |Aseed-PC|pool-1-thread-1|database.go|33|0|System|Nil|"initialize database ..."| 
+[L]2023-08-30 14:17:57.629|15_34990356370575361| INF |Aseed-PC|pool-1-thread-1|database.go|35|0|System|Nil|"initialize mongo ..."| 
+[L]2023-08-30 14:17:57.629|16_34990356370640897| INF |Aseed-PC|pool-1-thread-1|database.go|45|0|System|Nil|"mongo connectstring = 'mongodb://localhost'"| 
+[L]2023-08-30 14:17:58.241|17_34990357410238465| INF |Aseed-PC|pool-1-thread-1|database.go|73|0|System|Nil|"initialize mysql ..."| 
+[L]2023-08-30 14:17:58.246|18_34990357410304001| INF |Aseed-PC|pool-1-thread-1|database.go|138|0|System|Nil|"initialize redis ..."| 
+[L]2023-08-30 14:17:58.246|19_34990357410369537| INF |Aseed-PC|pool-1-thread-1|database.go|168|0|System|Nil|"redis host = '[localhost:6379]'"| 
+[L]2023-08-30 14:17:58.264|20_34990357443792897| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'class' database = []"| 
+[L]2023-08-30 14:17:58.264|21_34990357443858433| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tag' database = []"| 
+[L]2023-08-30 14:17:58.264|22_34990357443923969| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'config' database = []"| 
+[L]2023-08-30 14:17:58.265|23_34990357443989505| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'asset' database = []"| 
+[L]2023-08-30 14:17:58.265|24_34990357444055041| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'publicAsset' database = []"| 
+[L]2023-08-30 14:17:58.265|25_34990357444120577| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'privateAsset' database = []"| 
+[L]2023-08-30 14:17:58.266|26_34990357444186113| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tenantAsset' database = []"| 
+[L]2023-08-30 14:17:58.266|27_34990357444251649| DBG |Aseed-PC|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'instanceScopeID' database = []"| 
+[L]2023-08-30 14:17:58.269|28_34990357444317185| DBG |Aseed-PC|pool-1-thread-2|bus.go|96|func1|System|Nil|"call log.info args = [Listening and serving HTTP on listener what's bind with address  localhost:8085]"| 
+[L]2023-08-30 14:17:58.269|29_34990357444382721| INF |Aseed-PC|pool-1-thread-2|value.go|586|call|System|Nil|"Listening and serving HTTP on listener what's bind with address localhost:8085"| 
+[L]2023-08-30 14:19:38.163|30_34990525048180737| DBG |Aseed-PC|pool-1-thread-3|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-08-30 14:19:38.163|31_34990525048246273| DBG |Aseed-PC|pool-1-thread-4|bus.go|96|func1|System|Nil|"call ExitRpcServer args = []"| 
+[L]2023-08-30 14:19:38.163|32_34990525048311809| DBG |Aseed-PC|pool-1-thread-5|bus.go|96|func1|System|Nil|"call ExitWebServer args = []"| 
+[L]2023-08-30 14:19:38.163|33_34990525048377345| DBG |Aseed-PC|pool-1-thread-6|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-08-30 14:19:38.164|34_34990525048442881| DBG |Aseed-PC|pool-1-thread-7|bus.go|96|func1|System|Nil|"call log.info args = [grpc server is closeing...]"| 
+[L]2023-08-30 14:19:38.164|35_34990525048508417| DBG |Aseed-PC|pool-1-thread-8|bus.go|96|func1|System|Nil|"call log.info args = [grpc server is closed.]"| 
+[L]2023-08-30 14:19:38.164|36_34990525048573953| WAR |Aseed-PC|pool-1-thread-9|bus.go|85|Publish|System|Nil|"not found handlers in topic:RpcServerExited"| 
+[L]2023-08-30 14:19:38.164|37_34990525048639489| INF |Aseed-PC|pool-1-thread-8|value.go|586|call|System|Nil|"grpc server is closed."| 
+[L]2023-08-30 14:19:38.164|38_34990525048705025| INF |Aseed-PC|pool-1-thread-7|value.go|586|call|System|Nil|"grpc server is closeing..."| 
+[L]2023-08-30 14:19:38.164|39_34990525048770561| DBG |Aseed-PC|pool-1-thread-10|bus.go|96|func1|System|Nil|"call log.error args = [http: Server closed]"| 
+[L]2023-08-30 14:19:38.164|40_34990525048836097| DBG |Aseed-PC|pool-1-thread-11|bus.go|96|func1|System|Nil|"call WebServerExited args = []"| 
+[L]2023-08-30 14:19:38.163|41_34990525048901633| DBG |Aseed-PC|pool-1-thread-3|bus.go|100|1|System|Nil|"call Quit error, stack frames :
+    Error Message: reflect: Call with too many input arguments
+    E:/Projects/Office/asset-library/framework/bus/bus.go:100 (0x17cff19)
+    C:/Program Files/Go/src/runtime/panic.go:884 (0x697c72)
+    C:/Program Files/Go/src/reflect/value.go:432 (0x732fe4)
+    C:/Program Files/Go/src/reflect/value.go:370 (0x73129b)
+    E:/Projects/Office/asset-library/framework/bus/bus.go:104 (0x17cfe54)
+    C:/Program Files/Go/src/runtime/asm_amd64.s:1598 (0x6c7f40)
+"| 
+[L]2023-08-30 14:19:38.164|42_34990525048967169| DBG |Aseed-PC|pool-1-thread-6|bus.go|100|1|System|Nil|"call Quit error, stack frames :
+    Error Message: reflect: Call with too many input arguments
+    E:/Projects/Office/asset-library/framework/bus/bus.go:100 (0x17cff19)
+    C:/Program Files/Go/src/runtime/panic.go:884 (0x697c72)
+    C:/Program Files/Go/src/reflect/value.go:432 (0x732fe4)
+    C:/Program Files/Go/src/reflect/value.go:370 (0x73129b)
+    E:/Projects/Office/asset-library/framework/bus/bus.go:104 (0x17cfe54)
+    C:/Program Files/Go/src/runtime/asm_amd64.s:1598 (0x6c7f40)
+"| 
+[L]2023-08-30 14:19:38.165|43_34990525049032705| DBG |Aseed-PC|pool-1-thread-12|bus.go|96|func1|System|Nil|"call log.info args = [Web server is closed. exit code =  0]"| 
+[L]2023-08-30 14:19:38.164|44_34990525049098241| DBG |Aseed-PC|pool-1-thread-13|bus.go|96|func1|System|Nil|"call log.info args = [web server is closed.]"| 
+[L]2023-08-30 14:19:38.165|45_34990525049163777| ERR |Aseed-PC|pool-1-thread-10|value.go|586|call|System|Nil|"http: Server closed"| 
+[L]2023-08-30 14:19:38.166|46_34990525049229313| INF |Aseed-PC|pool-1-thread-12|value.go|586|call|System|Nil|"Web server is closed. exit code = 0"| 
+[L]2023-08-30 14:19:38.166|47_34990525049294849| INF |Aseed-PC|pool-1-thread-13|value.go|586|call|System|Nil|"web server is closed."| 

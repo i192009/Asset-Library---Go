@@ -1,0 +1,253 @@
+[L]2023-11-10 16:00:58.597|24_45437496862980097| DBG |DESKTOP-4PAEICH|pool-1-thread-3|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-11-10 16:00:58.598|25_45437496896534529| DBG |DESKTOP-4PAEICH|pool-1-thread-4|bus.go|96|func1|System|Nil|"call ExitRpcServer args = []"| 
+[L]2023-11-10 16:00:58.598|26_45437496896600065| DBG |DESKTOP-4PAEICH|pool-1-thread-5|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-11-10 16:00:58.623|27_45437496896665601| DBG |DESKTOP-4PAEICH|pool-1-thread-6|bus.go|96|func1|System|Nil|"call log.info args = [grpc server is closeing...]"| 
+[L]2023-11-10 16:00:58.598|28_45437496896731137| DBG |DESKTOP-4PAEICH|pool-1-thread-7|bus.go|96|func1|System|Nil|"call ExitWebServer args = []"| 
+[L]2023-11-10 16:00:58.625|29_45437496896796673| DBG |DESKTOP-4PAEICH|pool-1-thread-5|bus.go|100|1|System|Nil|"call Quit error, stack frames :
+    Error Message: reflect: Call with too many input arguments
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:100 (0x1df106a)
+    C:/Program Files/Go/src/runtime/panic.go:914 (0xd1b11e)
+    C:/Program Files/Go/src/reflect/value.go:442 (0xdf9d8d)
+    C:/Program Files/Go/src/reflect/value.go:380 (0xdf7ef8)
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:104 (0x1df0fc4)
+    C:/Program Files/Go/src/runtime/asm_amd64.s:1650 (0xd4bd20)
+"| 
+[L]2023-11-10 16:00:58.626|30_45437496896862209| WAR |DESKTOP-4PAEICH|pool-1-thread-8|bus.go|85|Publish|System|Nil|"not found handlers in topic:RpcServerExited"| 
+[L]2023-11-10 16:00:58.627|31_45437496896927745| DBG |DESKTOP-4PAEICH|pool-1-thread-9|bus.go|96|func1|System|Nil|"call log.error args = [http: Server closed]"| 
+[L]2023-11-10 16:00:58.627|32_45437496896993281| DBG |DESKTOP-4PAEICH|pool-1-thread-10|bus.go|96|func1|System|Nil|"call log.info args = [web server is closed.]"| 
+[L]2023-11-10 16:00:58.629|33_45437496897058817| INF |DESKTOP-4PAEICH|pool-1-thread-10|value.go|596|call|System|Nil|"web server is closed."| 
+[L]2023-11-10 16:00:58.626|34_45437496913311745| DBG |DESKTOP-4PAEICH|pool-1-thread-3|bus.go|100|1|System|Nil|"call Quit error, stack frames :
+    Error Message: reflect: Call with too many input arguments
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:100 (0x1df106a)
+    C:/Program Files/Go/src/runtime/panic.go:914 (0xd1b11e)
+    C:/Program Files/Go/src/reflect/value.go:442 (0xdf9d8d)
+    C:/Program Files/Go/src/reflect/value.go:380 (0xdf7ef8)
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:104 (0x1df0fc4)
+    C:/Program Files/Go/src/runtime/asm_amd64.s:1650 (0xd4bd20)
+"| 
+[L]2023-11-10 16:00:58.626|35_45437496913377281| DBG |DESKTOP-4PAEICH|pool-1-thread-11|bus.go|96|func1|System|Nil|"call log.info args = [grpc server is closed.]"| 
+[L]2023-11-10 16:00:58.625|36_45437496913442817| INF |DESKTOP-4PAEICH|pool-1-thread-6|value.go|596|call|System|Nil|"grpc server is closeing..."| 
+[L]2023-11-10 16:00:58.627|37_45437496913508353| DBG |DESKTOP-4PAEICH|pool-1-thread-12|bus.go|96|func1|System|Nil|"call WebServerExited args = []"| 
+[L]2023-11-10 16:00:58.633|38_45437496913573889| INF |DESKTOP-4PAEICH|pool-1-thread-11|value.go|596|call|System|Nil|"grpc server is closed."| 
+[L]2023-11-10 16:00:58.629|39_45437496913639425| ERR |DESKTOP-4PAEICH|pool-1-thread-9|value.go|596|call|System|Nil|"http: Server closed"| 
+[L]2023-11-10 16:00:58.637|40_45437496913704961| DBG |DESKTOP-4PAEICH|pool-1-thread-13|bus.go|96|func1|System|Nil|"call log.info args = [Web server is closed. exit code =  0]"| 
+[L]2023-11-10 16:00:58.640|41_45437496930088961| INF |DESKTOP-4PAEICH|pool-1-thread-13|value.go|596|call|System|Nil|"Web server is closed. exit code = 0"| 
+[L]2023-11-10 16:03:01.272|5_45437702669088769| INF |DESKTOP-4PAEICH|pool-1-thread-1|app.go|45|0|System|Nil|"framework initialize ..."| 
+[L]2023-11-10 16:03:01.278|6_45437702669154305| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:user:localhost:9602"| 
+[L]2023-11-10 16:03:01.279|7_45437702669219841| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:storage:localhost:9702"| 
+[L]2023-11-10 16:03:01.280|8_45437702685865985| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:organization:<nil>"| 
+[L]2023-11-10 16:03:01.283|9_45437702685931521| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|33|0|System|Nil|"initialize database ..."| 
+[L]2023-11-10 16:03:01.283|10_45437702685997057| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|35|0|System|Nil|"initialize mongo ..."| 
+[L]2023-11-10 16:03:01.284|11_45437702686062593| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|45|0|System|Nil|"mongo connectstring = 'mongodb://localhost'"| 
+[L]2023-11-10 16:03:01.318|12_45437702736197633| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|138|0|System|Nil|"initialize redis ..."| 
+[L]2023-11-10 16:03:01.318|13_45437702736263169| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|168|0|System|Nil|"redis host = '[localhost:6379]'"| 
+[L]2023-11-10 16:03:01.324|14_45437702752974849| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'class' database = []"| 
+[L]2023-11-10 16:03:01.325|15_45437702753040385| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tag' database = []"| 
+[L]2023-11-10 16:03:01.326|16_45437702753105921| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'config' database = []"| 
+[L]2023-11-10 16:03:01.326|17_45437702753171457| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'asset' database = []"| 
+[L]2023-11-10 16:03:01.327|18_45437702753236993| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'publicAsset' database = []"| 
+[L]2023-11-10 16:03:01.327|19_45437702753302529| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'privateAsset' database = []"| 
+[L]2023-11-10 16:03:01.327|20_45437702753368065| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tenantAsset' database = []"| 
+[L]2023-11-10 16:03:01.328|21_45437702753433601| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'instanceScopeID' database = []"| 
+[L]2023-11-10 16:03:01.333|22_45437702769752065| DBG |DESKTOP-4PAEICH|pool-1-thread-2|bus.go|96|func1|System|Nil|"call log.info args = [Listening and serving HTTP on listener what's bind with address  localhost:8085]"| 
+[L]2023-11-10 16:03:01.336|23_45437702769817601| INF |DESKTOP-4PAEICH|pool-1-thread-2|value.go|596|call|System|Nil|"Listening and serving HTTP on listener what's bind with address localhost:8085"| 
+[L]2023-11-10 16:22:40.611|24_45439681273280513| DBG |DESKTOP-4PAEICH|pool-1-thread-3|bus.go|96|func1|System|Nil|"call ExitWebServer args = []"| 
+[L]2023-11-10 16:22:40.612|25_45439681273346049| DBG |DESKTOP-4PAEICH|pool-1-thread-4|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-11-10 16:22:40.612|26_45439681273411585| DBG |DESKTOP-4PAEICH|pool-1-thread-5|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-11-10 16:22:40.612|27_45439681273477121| DBG |DESKTOP-4PAEICH|pool-1-thread-6|bus.go|96|func1|System|Nil|"call ExitRpcServer args = []"| 
+[L]2023-11-10 16:22:40.618|28_45439681273542657| DBG |DESKTOP-4PAEICH|pool-1-thread-7|bus.go|96|func1|System|Nil|"call WebServerExited args = []"| 
+[L]2023-11-10 16:22:40.620|29_45439681290057729| DBG |DESKTOP-4PAEICH|pool-1-thread-8|bus.go|96|func1|System|Nil|"call log.info args = [Web server is closed. exit code =  0]"| 
+[L]2023-11-10 16:22:40.619|30_45439681290123265| DBG |DESKTOP-4PAEICH|pool-1-thread-9|bus.go|96|func1|System|Nil|"call log.info args = [grpc server is closeing...]"| 
+[L]2023-11-10 16:22:40.619|31_45439681290188801| DBG |DESKTOP-4PAEICH|pool-1-thread-10|bus.go|96|func1|System|Nil|"call log.error args = [http: Server closed]"| 
+[L]2023-11-10 16:22:40.618|32_45439681290254337| DBG |DESKTOP-4PAEICH|pool-1-thread-11|bus.go|96|func1|System|Nil|"call log.info args = [web server is closed.]"| 
+[L]2023-11-10 16:22:40.624|33_45439681290319873| INF |DESKTOP-4PAEICH|pool-1-thread-11|value.go|596|call|System|Nil|"web server is closed."| 
+[L]2023-11-10 16:22:40.621|34_45439681290385409| INF |DESKTOP-4PAEICH|pool-1-thread-8|value.go|596|call|System|Nil|"Web server is closed. exit code = 0"| 
+[L]2023-11-10 16:22:40.622|35_45439681290450945| DBG |DESKTOP-4PAEICH|pool-1-thread-4|bus.go|100|1|System|Nil|"call Quit error, stack frames :
+    Error Message: reflect: Call with too many input arguments
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:100 (0x186106a)
+    C:/Program Files/Go/src/runtime/panic.go:914 (0x78b11e)
+    C:/Program Files/Go/src/reflect/value.go:442 (0x869d8d)
+    C:/Program Files/Go/src/reflect/value.go:380 (0x867ef8)
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:104 (0x1860fc4)
+    C:/Program Files/Go/src/runtime/asm_amd64.s:1650 (0x7bbd20)
+"| 
+[L]2023-11-10 16:22:40.622|36_45439681290516481| INF |DESKTOP-4PAEICH|pool-1-thread-9|value.go|596|call|System|Nil|"grpc server is closeing..."| 
+[L]2023-11-10 16:22:40.623|37_45439681290582017| DBG |DESKTOP-4PAEICH|pool-1-thread-12|bus.go|96|func1|System|Nil|"call RpcServerExited args = []"| 
+[L]2023-11-10 16:23:02.135|5_45439717377849345| INF |DESKTOP-4PAEICH|pool-1-thread-1|app.go|45|0|System|Nil|"framework initialize ..."| 
+[L]2023-11-10 16:23:02.141|6_45439717394626561| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:user:localhost:9602"| 
+[L]2023-11-10 16:23:02.143|7_45439717394692097| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:storage:localhost:9702"| 
+[L]2023-11-10 16:23:02.144|8_45439717394757633| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:organization:<nil>"| 
+[L]2023-11-10 16:23:02.146|9_45439717394823169| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|33|0|System|Nil|"initialize database ..."| 
+[L]2023-11-10 16:23:02.147|10_45439717394888705| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|35|0|System|Nil|"initialize mongo ..."| 
+[L]2023-11-10 16:23:02.148|11_45439717394954241| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|45|0|System|Nil|"mongo connectstring = 'mongodb://localhost'"| 
+[L]2023-11-10 16:23:02.188|12_45439717461735425| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|138|0|System|Nil|"initialize redis ..."| 
+[L]2023-11-10 16:23:02.189|13_45439717461800961| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|168|0|System|Nil|"redis host = '[localhost:6379]'"| 
+[L]2023-11-10 16:23:02.195|14_45439717478512641| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'class' database = []"| 
+[L]2023-11-10 16:23:02.196|15_45439717478578177| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tag' database = []"| 
+[L]2023-11-10 16:23:02.197|16_45439717478643713| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'config' database = []"| 
+[L]2023-11-10 16:23:02.198|17_45439717478709249| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'asset' database = []"| 
+[L]2023-11-10 16:23:02.198|18_45439717478774785| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'publicAsset' database = []"| 
+[L]2023-11-10 16:23:02.199|19_45439717478840321| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'privateAsset' database = []"| 
+[L]2023-11-10 16:23:02.199|20_45439717478905857| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tenantAsset' database = []"| 
+[L]2023-11-10 16:23:02.200|21_45439717495289857| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'instanceScopeID' database = []"| 
+[L]2023-11-10 16:23:02.205|22_45439717495355393| DBG |DESKTOP-4PAEICH|pool-1-thread-2|bus.go|96|func1|System|Nil|"call log.info args = [Listening and serving HTTP on listener what's bind with address  localhost:8085]"| 
+[L]2023-11-10 16:23:02.206|23_45439717495420929| INF |DESKTOP-4PAEICH|pool-1-thread-2|value.go|596|call|System|Nil|"Listening and serving HTTP on listener what's bind with address localhost:8085"| 
+[L]2023-11-10 16:27:58.169|24_45440214033774593| DBG |DESKTOP-4PAEICH|pool-1-thread-3|bus.go|96|func1|System|Nil|"call ExitRpcServer args = []"| 
+[L]2023-11-10 16:27:58.169|25_45440214050551809| DBG |DESKTOP-4PAEICH|pool-1-thread-4|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-11-10 16:27:58.173|26_45440214050617345| DBG |DESKTOP-4PAEICH|pool-1-thread-4|bus.go|100|1|System|Nil|"call Quit error, stack frames :
+    Error Message: reflect: Call with too many input arguments
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:100 (0x17f106a)
+    C:/Program Files/Go/src/runtime/panic.go:914 (0x71b11e)
+    C:/Program Files/Go/src/reflect/value.go:442 (0x7f9d8d)
+    C:/Program Files/Go/src/reflect/value.go:380 (0x7f7ef8)
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:104 (0x17f0fc4)
+    C:/Program Files/Go/src/runtime/asm_amd64.s:1650 (0x74bd20)
+"| 
+[L]2023-11-10 16:27:58.172|27_45440214050682881| WAR |DESKTOP-4PAEICH|pool-1-thread-5|bus.go|85|Publish|System|Nil|"not found handlers in topic:RpcServerExited"| 
+[L]2023-11-10 16:27:58.169|28_45440214050748417| DBG |DESKTOP-4PAEICH|pool-1-thread-6|bus.go|96|func1|System|Nil|"call ExitWebServer args = []"| 
+[L]2023-11-10 16:27:58.172|29_45440214050813953| DBG |DESKTOP-4PAEICH|pool-1-thread-7|bus.go|96|func1|System|Nil|"call log.info args = [grpc server is closed.]"| 
+[L]2023-11-10 16:27:58.180|30_45440214067329025| INF |DESKTOP-4PAEICH|pool-1-thread-7|value.go|596|call|System|Nil|"grpc server is closed."| 
+[L]2023-11-10 16:27:58.171|31_45440214067394561| DBG |DESKTOP-4PAEICH|pool-1-thread-8|bus.go|96|func1|System|Nil|"call log.info args = [grpc server is closeing...]"| 
+[L]2023-11-10 16:27:58.169|32_45440214067460097| DBG |DESKTOP-4PAEICH|pool-1-thread-9|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-11-10 16:27:58.183|33_45440214067525633| INF |DESKTOP-4PAEICH|pool-1-thread-8|value.go|596|call|System|Nil|"grpc server is closeing..."| 
+[L]2023-11-10 16:27:58.180|34_45440214067591169| DBG |DESKTOP-4PAEICH|pool-1-thread-10|bus.go|96|func1|System|Nil|"call WebServerExited args = []"| 
+[L]2023-11-10 16:27:58.180|35_45440214067656705| DBG |DESKTOP-4PAEICH|pool-1-thread-11|bus.go|96|func1|System|Nil|"call log.info args = [web server is closed.]"| 
+[L]2023-11-10 16:27:58.184|36_45440214067722241| DBG |DESKTOP-4PAEICH|pool-1-thread-9|bus.go|100|1|System|Nil|"call Quit error, stack frames :
+    Error Message: reflect: Call with too many input arguments
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:100 (0x17f106a)
+    C:/Program Files/Go/src/runtime/panic.go:914 (0x71b11e)
+    C:/Program Files/Go/src/reflect/value.go:442 (0x7f9d8d)
+    C:/Program Files/Go/src/reflect/value.go:380 (0x7f7ef8)
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:104 (0x17f0fc4)
+    C:/Program Files/Go/src/runtime/asm_amd64.s:1650 (0x74bd20)
+"| 
+[L]2023-11-10 16:27:58.188|37_45440214084106241| INF |DESKTOP-4PAEICH|pool-1-thread-11|value.go|596|call|System|Nil|"web server is closed."| 
+[L]2023-11-10 16:27:58.180|38_45440214084171777| DBG |DESKTOP-4PAEICH|pool-1-thread-12|bus.go|96|func1|System|Nil|"call log.error args = [http: Server closed]"| 
+[L]2023-11-10 16:27:58.187|39_45440214084237313| DBG |DESKTOP-4PAEICH|pool-1-thread-13|bus.go|96|func1|System|Nil|"call log.info args = [Web server is closed. exit code =  0]"| 
+[L]2023-11-10 16:27:58.194|40_45440214084302849| INF |DESKTOP-4PAEICH|pool-1-thread-13|value.go|596|call|System|Nil|"Web server is closed. exit code = 0"| 
+[L]2023-11-10 16:27:58.193|41_45440214084368385| ERR |DESKTOP-4PAEICH|pool-1-thread-12|value.go|596|call|System|Nil|"http: Server closed"| 
+[L]2023-11-10 16:28:14.648|5_45440241682888705| INF |DESKTOP-4PAEICH|pool-1-thread-1|app.go|45|0|System|Nil|"framework initialize ..."| 
+[L]2023-11-10 16:28:14.653|6_45440241699403777| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:user:localhost:9602"| 
+[L]2023-11-10 16:28:14.657|7_45440241699469313| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:storage:localhost:9702"| 
+[L]2023-11-10 16:28:14.658|8_45440241699534849| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:organization:<nil>"| 
+[L]2023-11-10 16:28:14.661|9_45440241716180993| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|33|0|System|Nil|"initialize database ..."| 
+[L]2023-11-10 16:28:14.662|10_45440241716246529| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|35|0|System|Nil|"initialize mongo ..."| 
+[L]2023-11-10 16:28:14.662|11_45440241716312065| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|45|0|System|Nil|"mongo connectstring = 'mongodb://localhost'"| 
+[L]2023-11-10 16:28:14.690|12_45440241766512641| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|138|0|System|Nil|"initialize redis ..."| 
+[L]2023-11-10 16:28:14.691|13_45440241766578177| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|168|0|System|Nil|"redis host = '[localhost:6379]'"| 
+[L]2023-11-10 16:28:14.694|14_45440241766643713| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'class' database = []"| 
+[L]2023-11-10 16:28:14.695|15_45440241766709249| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tag' database = []"| 
+[L]2023-11-10 16:28:14.695|16_45440241766774785| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'config' database = []"| 
+[L]2023-11-10 16:28:14.696|17_45440241766840321| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'asset' database = []"| 
+[L]2023-11-10 16:28:14.696|18_45440241766905857| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'publicAsset' database = []"| 
+[L]2023-11-10 16:28:14.697|19_45440241766971393| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'privateAsset' database = []"| 
+[L]2023-11-10 16:28:14.698|20_45440241767036929| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tenantAsset' database = []"| 
+[L]2023-11-10 16:28:14.698|21_45440241767102465| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'instanceScopeID' database = []"| 
+[L]2023-11-10 16:28:14.702|22_45440241783289857| DBG |DESKTOP-4PAEICH|pool-1-thread-2|bus.go|96|func1|System|Nil|"call log.info args = [Listening and serving HTTP on listener what's bind with address  localhost:8085]"| 
+[L]2023-11-10 16:28:14.706|23_45440241783355393| INF |DESKTOP-4PAEICH|pool-1-thread-2|value.go|596|call|System|Nil|"Listening and serving HTTP on listener what's bind with address localhost:8085"| 
+[L]2023-11-10 16:31:04.682|24_45440526962407425| DBG |DESKTOP-4PAEICH|pool-1-thread-3|bus.go|96|func1|System|Nil|"call ExitWebServer args = []"| 
+[L]2023-11-10 16:31:04.683|25_45440526962472961| DBG |DESKTOP-4PAEICH|pool-1-thread-4|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-11-10 16:31:04.683|26_45440526962538497| DBG |DESKTOP-4PAEICH|pool-1-thread-5|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-11-10 16:31:04.683|27_45440526962604033| DBG |DESKTOP-4PAEICH|pool-1-thread-6|bus.go|96|func1|System|Nil|"call ExitRpcServer args = []"| 
+[L]2023-11-10 16:31:04.689|28_45440526962669569| DBG |DESKTOP-4PAEICH|pool-1-thread-7|bus.go|96|func1|System|Nil|"call log.info args = [grpc server is closeing...]"| 
+[L]2023-11-10 16:31:04.691|29_45440526979184641| DBG |DESKTOP-4PAEICH|pool-1-thread-8|bus.go|96|func1|System|Nil|"call WebServerExited args = []"| 
+[L]2023-11-10 16:31:04.693|30_45440526979250177| DBG |DESKTOP-4PAEICH|pool-1-thread-9|bus.go|96|func1|System|Nil|"call log.info args = [Web server is closed. exit code =  0]"| 
+[L]2023-11-10 16:31:04.694|31_45440526979315713| INF |DESKTOP-4PAEICH|pool-1-thread-9|value.go|596|call|System|Nil|"Web server is closed. exit code = 0"| 
+[L]2023-11-10 16:31:04.691|32_45440526979381249| WAR |DESKTOP-4PAEICH|pool-1-thread-10|bus.go|85|Publish|System|Nil|"not found handlers in topic:RpcServerExited"| 
+[L]2023-11-10 16:31:04.691|33_45440526979446785| DBG |DESKTOP-4PAEICH|pool-1-thread-11|bus.go|96|func1|System|Nil|"call log.info args = [web server is closed.]"| 
+[L]2023-11-10 16:31:04.691|34_45440526979512321| DBG |DESKTOP-4PAEICH|pool-1-thread-12|bus.go|96|func1|System|Nil|"call log.info args = [grpc server is closed.]"| 
+[L]2023-11-10 16:31:04.691|35_45440526979577857| DBG |DESKTOP-4PAEICH|pool-1-thread-13|bus.go|96|func1|System|Nil|"call log.error args = [http: Server closed]"| 
+[L]2023-11-10 16:31:04.689|36_45440526979643393| INF |DESKTOP-4PAEICH|pool-1-thread-7|value.go|596|call|System|Nil|"grpc server is closeing..."| 
+[L]2023-11-10 16:31:04.691|37_45440526995961857| DBG |DESKTOP-4PAEICH|pool-1-thread-4|bus.go|100|1|System|Nil|"call Quit error, stack frames :
+    Error Message: reflect: Call with too many input arguments
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:100 (0x17f106a)
+    C:/Program Files/Go/src/runtime/panic.go:914 (0x71b11e)
+    C:/Program Files/Go/src/reflect/value.go:442 (0x7f9d8d)
+    C:/Program Files/Go/src/reflect/value.go:380 (0x7f7ef8)
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:104 (0x17f0fc4)
+    C:/Program Files/Go/src/runtime/asm_amd64.s:1650 (0x74bd20)
+"| 
+[L]2023-11-10 16:31:04.697|38_45440526996027393| INF |DESKTOP-4PAEICH|pool-1-thread-11|value.go|596|call|System|Nil|"web server is closed."| 
+[L]2023-11-10 16:31:04.699|39_45440526996092929| INF |DESKTOP-4PAEICH|pool-1-thread-12|value.go|596|call|System|Nil|"grpc server is closed."| 
+[L]2023-11-10 16:31:04.691|40_45440526996158465| DBG |DESKTOP-4PAEICH|pool-1-thread-5|bus.go|100|1|System|Nil|"call Quit error, stack frames :
+    Error Message: reflect: Call with too many input arguments
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:100 (0x17f106a)
+    C:/Program Files/Go/src/runtime/panic.go:914 (0x71b11e)
+    C:/Program Files/Go/src/reflect/value.go:442 (0x7f9d8d)
+    C:/Program Files/Go/src/reflect/value.go:380 (0x7f7ef8)
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:104 (0x17f0fc4)
+    C:/Program Files/Go/src/runtime/asm_amd64.s:1650 (0x74bd20)
+"| 
+[L]2023-11-10 16:31:04.700|41_45440526996224001| ERR |DESKTOP-4PAEICH|pool-1-thread-13|value.go|596|call|System|Nil|"http: Server closed"| 
+[L]2023-11-10 16:31:20.132|5_45440552883206145| INF |DESKTOP-4PAEICH|pool-1-thread-1|app.go|45|0|System|Nil|"framework initialize ..."| 
+[L]2023-11-10 16:31:20.137|6_45440552883271681| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:user:localhost:9602"| 
+[L]2023-11-10 16:31:20.138|7_45440552883337217| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:storage:localhost:9702"| 
+[L]2023-11-10 16:31:20.139|8_45440552883402753| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:organization:<nil>"| 
+[L]2023-11-10 16:31:20.141|9_45440552899983361| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|33|0|System|Nil|"initialize database ..."| 
+[L]2023-11-10 16:31:20.142|10_45440552900048897| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|35|0|System|Nil|"initialize mongo ..."| 
+[L]2023-11-10 16:31:20.143|11_45440552900114433| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|45|0|System|Nil|"mongo connectstring = 'mongodb://localhost'"| 
+[L]2023-11-10 16:31:20.166|12_45440552933537793| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|138|0|System|Nil|"initialize redis ..."| 
+[L]2023-11-10 16:31:20.168|13_45440552933603329| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|168|0|System|Nil|"redis host = '[localhost:6379]'"| 
+[L]2023-11-10 16:31:20.170|14_45440552950315009| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'class' database = []"| 
+[L]2023-11-10 16:31:20.171|15_45440552950380545| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tag' database = []"| 
+[L]2023-11-10 16:31:20.171|16_45440552950446081| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'config' database = []"| 
+[L]2023-11-10 16:31:20.171|17_45440552950511617| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'asset' database = []"| 
+[L]2023-11-10 16:31:20.172|18_45440552950577153| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'publicAsset' database = []"| 
+[L]2023-11-10 16:31:20.172|19_45440552950642689| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'privateAsset' database = []"| 
+[L]2023-11-10 16:31:20.173|20_45440552950708225| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tenantAsset' database = []"| 
+[L]2023-11-10 16:31:20.173|21_45440552950773761| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'instanceScopeID' database = []"| 
+[L]2023-11-10 16:31:20.180|22_45440552967092225| DBG |DESKTOP-4PAEICH|pool-1-thread-2|bus.go|96|func1|System|Nil|"call log.info args = [Listening and serving HTTP on listener what's bind with address  localhost:8085]"| 
+[L]2023-11-10 16:31:20.180|23_45440552967157761| INF |DESKTOP-4PAEICH|pool-1-thread-2|value.go|596|call|System|Nil|"Listening and serving HTTP on listener what's bind with address localhost:8085"| 
+[L]2023-11-10 18:11:28.779|24_45450633725097985| DBG |DESKTOP-4PAEICH|pool-1-thread-3|bus.go|96|func1|System|Nil|"call ExitRpcServer args = []"| 
+[L]2023-11-10 18:11:28.781|25_45450633725163521| DBG |DESKTOP-4PAEICH|pool-1-thread-4|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-11-10 18:11:28.785|26_45450633725229057| WAR |DESKTOP-4PAEICH|pool-1-thread-5|bus.go|85|Publish|System|Nil|"not found handlers in topic:RpcServerExited"| 
+[L]2023-11-10 18:11:28.781|27_45450633725294593| DBG |DESKTOP-4PAEICH|pool-1-thread-6|bus.go|96|func1|System|Nil|"call ExitWebServer args = []"| 
+[L]2023-11-10 18:11:28.784|28_45450633725360129| DBG |DESKTOP-4PAEICH|pool-1-thread-7|bus.go|96|func1|System|Nil|"call log.info args = [grpc server is closed.]"| 
+[L]2023-11-10 18:11:28.783|29_45450633741875201| DBG |DESKTOP-4PAEICH|pool-1-thread-8|bus.go|96|func1|System|Nil|"call log.info args = [grpc server is closeing...]"| 
+[L]2023-11-10 18:11:28.781|30_45450633741940737| DBG |DESKTOP-4PAEICH|pool-1-thread-9|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-11-10 18:11:28.790|31_45450633742006273| INF |DESKTOP-4PAEICH|pool-1-thread-7|value.go|596|call|System|Nil|"grpc server is closed."| 
+[L]2023-11-10 18:11:28.792|32_45450633742071809| INF |DESKTOP-4PAEICH|pool-1-thread-8|value.go|596|call|System|Nil|"grpc server is closeing..."| 
+[L]2023-11-10 18:11:28.795|33_45450633742137345| DBG |DESKTOP-4PAEICH|pool-1-thread-10|bus.go|96|func1|System|Nil|"call WebServerExited args = []"| 
+[L]2023-11-10 18:11:28.796|34_45450633742202881| DBG |DESKTOP-4PAEICH|pool-1-thread-9|bus.go|100|1|System|Nil|"call Quit error, stack frames :
+    Error Message: reflect: Call with too many input arguments
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:100 (0x170106a)
+    C:/Program Files/Go/src/runtime/panic.go:914 (0x62b11e)
+    C:/Program Files/Go/src/reflect/value.go:442 (0x709d8d)
+    C:/Program Files/Go/src/reflect/value.go:380 (0x707ef8)
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:104 (0x1700fc4)
+    C:/Program Files/Go/src/runtime/asm_amd64.s:1650 (0x65bd20)
+"| 
+[L]2023-11-10 18:11:28.795|35_45450633742268417| DBG |DESKTOP-4PAEICH|pool-1-thread-11|bus.go|96|func1|System|Nil|"call log.info args = [web server is closed.]"| 
+[L]2023-11-10 18:11:28.796|36_45450633758652417| DBG |DESKTOP-4PAEICH|pool-1-thread-4|bus.go|100|1|System|Nil|"call Quit error, stack frames :
+    Error Message: reflect: Call with too many input arguments
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:100 (0x170106a)
+    C:/Program Files/Go/src/runtime/panic.go:914 (0x62b11e)
+    C:/Program Files/Go/src/reflect/value.go:442 (0x709d8d)
+    C:/Program Files/Go/src/reflect/value.go:380 (0x707ef8)
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:104 (0x1700fc4)
+    C:/Program Files/Go/src/runtime/asm_amd64.s:1650 (0x65bd20)
+"| 
+[L]2023-11-10 18:11:28.798|37_45450633758717953| DBG |DESKTOP-4PAEICH|pool-1-thread-12|bus.go|96|func1|System|Nil|"call log.info args = [Web server is closed. exit code =  0]"| 
+[L]2023-11-10 18:11:28.795|38_45450633758783489| DBG |DESKTOP-4PAEICH|pool-1-thread-13|bus.go|96|func1|System|Nil|"call log.error args = [http: Server closed]"| 
+[L]2023-11-10 18:11:28.800|39_45450633758849025| INF |DESKTOP-4PAEICH|pool-1-thread-11|value.go|596|call|System|Nil|"web server is closed."| 
+[L]2023-11-10 18:11:28.802|40_45450633758914561| INF |DESKTOP-4PAEICH|pool-1-thread-12|value.go|596|call|System|Nil|"Web server is closed. exit code = 0"| 
+[L]2023-11-10 18:11:28.807|41_45450633775429633| ERR |DESKTOP-4PAEICH|pool-1-thread-13|value.go|596|call|System|Nil|"http: Server closed"| 
+[L]2023-11-10 18:12:20.484|5_45450720463304705| INF |DESKTOP-4PAEICH|pool-1-thread-1|app.go|45|0|System|Nil|"framework initialize ..."| 
+[L]2023-11-10 18:12:20.495|6_45450720480081921| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:storage:localhost:9702"| 
+[L]2023-11-10 18:12:20.497|7_45450720480147457| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:organization:<nil>"| 
+[L]2023-11-10 18:12:20.498|8_45450720480212993| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:user:localhost:9602"| 
+[L]2023-11-10 18:12:20.501|9_45450720496859137| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|33|0|System|Nil|"initialize database ..."| 
+[L]2023-11-10 18:12:20.502|10_45450720496924673| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|35|0|System|Nil|"initialize mongo ..."| 
+[L]2023-11-10 18:12:20.502|11_45450720496990209| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|45|0|System|Nil|"mongo connectstring = 'mongodb://localhost'"| 
+[L]2023-11-10 18:12:20.534|12_45450720547190785| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|138|0|System|Nil|"initialize redis ..."| 
+[L]2023-11-10 18:12:20.534|13_45450720547256321| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|168|0|System|Nil|"redis host = '[localhost:6379]'"| 
+[L]2023-11-10 18:12:20.541|14_45450720563968001| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'class' database = []"| 
+[L]2023-11-10 18:12:20.541|15_45450720564033537| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tag' database = []"| 
+[L]2023-11-10 18:12:20.542|16_45450720564099073| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'config' database = []"| 
+[L]2023-11-10 18:12:20.542|17_45450720564164609| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'asset' database = []"| 
+[L]2023-11-10 18:12:20.543|18_45450720564230145| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'publicAsset' database = []"| 
+[L]2023-11-10 18:12:20.544|19_45450720564295681| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'privateAsset' database = []"| 
+[L]2023-11-10 18:12:20.545|20_45450720564361217| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tenantAsset' database = []"| 
+[L]2023-11-10 18:12:20.546|21_45450720564426753| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'instanceScopeID' database = []"| 
+[L]2023-11-10 18:12:20.552|22_45450720580745217| DBG |DESKTOP-4PAEICH|pool-1-thread-2|bus.go|96|func1|System|Nil|"call log.info args = [Listening and serving HTTP on listener what's bind with address  localhost:8085]"| 
+[L]2023-11-10 18:12:20.553|23_45450720580810753| INF |DESKTOP-4PAEICH|pool-1-thread-2|value.go|596|call|System|Nil|"Listening and serving HTTP on listener what's bind with address localhost:8085"| 

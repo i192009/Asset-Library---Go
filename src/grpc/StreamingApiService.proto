@@ -1,0 +1,76 @@
+syntax = "proto3";
+package streaming;
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/struct.proto";
+
+option java_multiple_files = true;
+option java_package = "cn.zixel.streaming.lib";
+option java_outer_classname = "StreamingApiServiceProto";
+option go_package = "./;services";
+
+// 节点相关服务
+service StreamingApiNodeService {
+  // 节点容量查询
+  rpc Capacity(google.protobuf.Value) returns (google.protobuf.Value) {}
+  // 节点离线
+  rpc Offline(google.protobuf.Value) returns (google.protobuf.Empty) {}
+  // 初始化回调
+  rpc InitCallback(InitNotice) returns (google.protobuf.Empty) {}
+  // 状态回调
+  rpc StatusCallback(StatusNotice) returns (google.protobuf.Empty) {}
+}
+
+message InitNotice {
+  string nodeCode = 1;
+  repeated string instanceId = 2;
+}
+
+message StatusNotice {
+  string nodeCode = 1;
+  repeated Instance instances = 2;
+}
+
+message Instance {
+  string instanceId = 1;
+  int64 timestamp = 2;
+  optional string taskId = 3;
+  optional string playUuid = 4;
+  optional bool bind = 5;
+}
+
+service StreamingApiAppService {
+    rpc startCallback(StartNotice) returns (google.protobuf.Empty) {}
+
+    rpc readyCallback(ReadyNotice) returns (google.protobuf.Empty) {}
+
+    rpc bindCallback(AppNotice) returns (google.protobuf.Empty) {}
+
+    rpc unbindCallback(AppNotice) returns (google.protobuf.Empty) {}
+
+    rpc stopCallback(AppNotice) returns (google.protobuf.Empty) {}
+}
+
+message StartNotice {
+  bool success = 1;
+  string taskId = 2;
+  string nodeCode = 3;
+  string instanceId = 4;
+  string message = 5;
+}
+
+
+message AppNotice {
+  string taskId = 1;
+  string nodeCode = 2;
+  string instanceId = 3;
+}
+
+message ReadyNotice {
+  string taskId = 1;
+  string nodeCode = 2;
+  string instanceId = 3;
+  string playUuid = 4;
+}
+
+

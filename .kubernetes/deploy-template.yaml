@@ -1,0 +1,184 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: $APP_NAME-conf
+  namespace: $NAMESPACE
+  labels:
+    name: $APP_NAME
+data:
+  .env: |-
+    CONFIG_PATH=./conf
+    CONFIG_MAP=asset-library-conf
+    CONFIG_KEY=asset-library.yaml
+    GOTRACEBACK=crash
+  asset-library.yaml: |-
+    env: online
+    namespace: $NAMESPACE
+    debug: true
+
+    service:
+      name: asset-library
+      uuid: asset-library
+
+    mongo:
+      - connectstring: mongodb://root:zixel%5E%26*(YHN@mongo-svc:27017/?authSource=admin
+        database: assetLibrary
+        default: true
+
+    redis:
+      host: redis-svc
+      port: 6379
+      database: 0
+      password: zixel^&*(YHN
+      default: true
+
+    log:
+      path: logs
+      file: asset-library.log
+      level: debug
+
+    web:
+      listen_addr: 0.0.0.0
+      listen_port: $HTTP_PORT
+      path_prefix: /assetManage
+      trusted_proxies: [ ]
+
+    grpc:
+      listen_addr: 0.0.0.0
+      listen_port: $GRPC_PORT
+      connections:
+        user: jumeaux-user-svc:9400
+        storage: jumeaux-storage-svc:9500
+        organization: jumeaux-organization-svc:9400
+
+    http:
+      connections:
+        realink: http://transform-svc
+
+    realink:
+      marks: dev,qa,release
+
+    obs:
+      endpoint: obs.cn-east-3.myhuaweicloud.com
+      access_key: VKQA5OEEYYYF3XE7JSAD
+      secret_key: EznD8ZfHFTOq9wPbh2vCaalqlt30voUCf5A1ba27
+      dl_bucket: zetaverse
+      ul_bucket: zetaverse
+      ul_folder: $NAMESPACE
+      scope_id: 4
+      instance:
+        "1002": re-link
+        "1056": re-link
+        "1000": re-link
+        "1080": re-link
+        "1081": re-link
+        "1004": re-link
+        "1005": re-link
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: $NAMESPACE
+  name: $APP_NAME
+spec:
+  selector:
+    matchLabels:
+      name: $APP_NAME
+  replicas: $REPLICAS
+  template:
+    metadata:
+      labels:
+        name: $APP_NAME
+    spec:
+      containers:
+        - name: $APP_NAME
+          image: swr.cn-east-3.myhuaweicloud.com/zixel/$APP_NAME:$CI_COMMIT_BRANCH-$CI_COMMIT_SHORT_SHA
+          args: ["/service/$APP_NAME"]
+          ports:
+            - containerPort: $HTTP_PORT
+          # 对Pod内容器健康检查的设置
+          # 存活探针livenessProbe: 用于判断容器是否存活(running)，如果livessProbe探针探测到不健康，则kubelet会杀掉该容器，并根据容器的重启策略做相应的处理，不配的话K8S会认为一直是Success
+          # 判断是否存活，不存活则重启容器
+          # 其中有exec、httpGet、tcpSocket这3种配置
+          # exec: 在容器内部执行一个命令，如果该命令返回码为0，则表明容器健康
+          # httpGet: 通过容器的IP地址、端口号及路径通过用httpGet方法，如果响应的状态码stateCode大于等于200且小于400则认为容器健康
+          # tcpSocket: 通过容器的IP地址和端口执行tcpSocket检查，如果能够建立tcpSocket连接，则表明容器健康
+          livenessProbe:
+            httpGet:
+              # 健康检查路径，也就是应用的健康检查路径
+              path: /health
+              # 端口号
+              port: $HTTP_PORT
+              scheme: HTTP
+            # 容器启动后开始探测之前需要等多少秒，如应用启动一般30s的话，就设置为 30s，设置启动探针startProbe后可不等待
+            initialDelaySeconds: 10
+            # 探测的超时时间，默认 1s，最小 1s
+            timeoutSeconds: 3
+            # 健康检查失败后，最少连续健康检查成功多少次才被认定成功，默认值为1。最小值为1。
+            successThreshold: 1
+            # 最少连续多少次失败才视为失败。默认值为3。最小值为1
+            failureThreshold: 3
+            # 执行探测的频率（多少秒执行一次）。默认为10秒。最小值为1
+            periodSeconds: 10
+          # 就绪探针redinessProbe: 用于判断容器是否启动完成（ready），可以接收请求，如果该探针探测到失败，则Pod状态会被修改。Endpoint Controller将从ServiceEndpoint中删除包含该容器的所在Pod的Endpoint
+          # kubernetes 判断容器是否启动成功,否可以接受外部流量
+          readinessProbe:
+            httpGet:
+              # 健康检查路径，也就是应用的健康检查路径
+              path: /available
+              # 端口号
+              port: $HTTP_PORT
+              scheme: HTTP
+            # 容器启动后开始探测之前需要等多少秒，如应用启动一般30s的话，就设置为 30s，设置启动探针startProbe后可不等待
+            initialDelaySeconds: 10
+            # 探测的超时时间，默认 1s，最小 1s
+            timeoutSeconds: 3
+            # 健康检查失败后，最少连续健康检查成功多少次才被认定成功，默认值为1。最小值为1。
+            successThreshold: 1
+            # 最少连续多少次失败才视为失败。默认值为3。最小值为1
+            failureThreshold: 3
+            # 执行探测的频率（多少秒执行一次）。默认为10秒。最小值为1
+            periodSeconds: 10
+          resources:
+            limits:
+              cpu: $CPU_LIMIT
+              memory: $MEM_LIMIT
+            requests:
+              cpu: $CPU_REQUEST
+              memory: $MEM_REQUEST
+          volumeMounts:
+            - name: conf
+              mountPath: /service/conf/asset-library.yaml
+              subPath: asset-library.yaml
+            - name: logs
+              mountPath: /service/logs
+              subPath: $APP_NAME
+      imagePullSecrets:
+        - name: registry-harbor
+      volumes:
+        - name: conf
+          configMap:
+            name: $APP_NAME-conf
+        - name: logs
+          persistentVolumeClaim:
+            claimName: logs-nfs-pvc
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: $APP_NAME-svc
+  namespace: $NAMESPACE
+spec:
+  type: NodePort
+  selector:
+    name: $APP_NAME
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: $HTTP_PORT
+    - name: grpc
+      protocol: TCP
+      port: $GRPC_PORT
+      targetPort: $GRPC_PORT
+

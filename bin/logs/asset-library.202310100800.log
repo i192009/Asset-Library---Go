@@ -1,0 +1,10 @@
+[L]2023-10-10 14:10:44.320|5_40932790409117627| INF |Aseed-PC|pool-1-thread-1|app.go|45|0|System|Nil|"framework initialize ..."| 
+[L]2023-10-10 14:10:44.321|6_40932790409183163| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:user:localhost:9602"| 
+[L]2023-10-10 14:10:44.323|7_40932790409248699| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:storage:localhost:9702"| 
+[L]2023-10-10 14:10:44.323|8_40932790409314235| INF |Aseed-PC|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:organization:<nil>"| 
+[L]2023-10-10 14:10:44.326|9_40932790409379771| INF |Aseed-PC|pool-1-thread-1|database.go|33|0|System|Nil|"initialize database ..."| 
+[L]2023-10-10 14:10:44.328|10_40932790409445307| INF |Aseed-PC|pool-1-thread-1|database.go|35|0|System|Nil|"initialize mongo ..."| 
+[L]2023-10-10 14:10:44.328|11_40932790409510843| INF |Aseed-PC|pool-1-thread-1|database.go|45|0|System|Nil|"mongo connectstring = 'mongodb://localhost'"| 
+[L]2023-10-10 14:10:44.944|12_40932791449305019| INF |Aseed-PC|pool-1-thread-1|database.go|138|0|System|Nil|"initialize redis ..."| 
+[L]2023-10-10 14:10:44.944|13_40932791449370555| INF |Aseed-PC|pool-1-thread-1|database.go|168|0|System|Nil|"redis host = '[localhost:6379]'"| 
+[L]2023-10-10 14:10:54.389|14_40932807286996923| FAT |Aseed-PC|pool-1-thread-1|database.go|222|0|System|Nil|"dial tcp [::1]:6379: connectex: No connection could be made because the target machine actively refused it."| 

@@ -1,0 +1,21 @@
+[L]2023-10-18 10:02:44.494|5_42067467366840321| INF |DESKTOP-4PAEICH|pool-1-thread-1|app.go|45|0|System|Nil|"framework initialize ..."| 
+[L]2023-10-18 10:02:44.501|6_42067467383617537| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:storage:localhost:9702"| 
+[L]2023-10-18 10:02:44.503|7_42067467383683073| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:organization:<nil>"| 
+[L]2023-10-18 10:02:44.503|8_42067467383748609| INF |DESKTOP-4PAEICH|pool-1-thread-1|grpc.go|105|ConnectGrpcServers|System|Nil|"building grpc conn for:user:localhost:9602"| 
+[L]2023-10-18 10:02:44.508|9_42067467383814145| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|33|0|System|Nil|"initialize database ..."| 
+[L]2023-10-18 10:02:44.510|10_42067467400394753| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|35|0|System|Nil|"initialize mongo ..."| 
+[L]2023-10-18 10:02:44.511|11_42067467400460289| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|45|0|System|Nil|"mongo connectstring = 'mongodb://localhost'"| 
+[L]2023-10-18 10:02:44.562|12_42067467484280833| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|138|0|System|Nil|"initialize redis ..."| 
+[L]2023-10-18 10:02:44.562|13_42067467484346369| INF |DESKTOP-4PAEICH|pool-1-thread-1|database.go|168|0|System|Nil|"redis host = '[localhost:6379]'"| 
+[L]2023-10-18 10:02:44.570|14_42067467501058049| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'class' database = []"| 
+[L]2023-10-18 10:02:44.571|15_42067467501123585| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tag' database = []"| 
+[L]2023-10-18 10:02:44.572|16_42067467501189121| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'config' database = []"| 
+[L]2023-10-18 10:02:44.573|17_42067467501254657| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'asset' database = []"| 
+[L]2023-10-18 10:02:44.575|18_42067467501320193| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'publicAsset' database = []"| 
+[L]2023-10-18 10:02:44.576|19_42067467501385729| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'privateAsset' database = []"| 
+[L]2023-10-18 10:02:44.576|20_42067467501451265| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'tenantAsset' database = []"| 
+[L]2023-10-18 10:02:44.577|21_42067467501516801| DBG |DESKTOP-4PAEICH|pool-1-thread-1|mongo.go|125|GetCollection|System|Nil|"append new collection 'instanceScopeID' database = []"| 
+[L]2023-10-18 10:02:44.583|22_42067467517835265| DBG |DESKTOP-4PAEICH|pool-1-thread-2|bus.go|96|func1|System|Nil|"call log.info args = [Listening and serving HTTP on listener what's bind with address  localhost:8085]"| 
+[L]2023-10-18 10:02:44.584|23_42067467517900801| INF |DESKTOP-4PAEICH|pool-1-thread-2|value.go|596|call|System|Nil|"Listening and serving HTTP on listener what's bind with address localhost:8085"| 
+[L]2023-10-18 10:08:02.482|24_42068000865531905| ERR |DESKTOP-4PAEICH|pool-1-thread-3|classLogic.go|102|CheckClass|System|Nil|"CheckClass is error.err:the provided hex string is not a valid ObjectID"| 
+[L]2023-10-18 11:08:07.904|25_42074049756542977| ERR |DESKTOP-4PAEICH|pool-1-thread-4|instanceScopeIdDao.go|31|AddInstanceScopeId|System|Nil|" dao.AddInstanceScopeId is error.err:write exception: write errors: [E11000 duplicate key error collection: assetLibrary.instanceScopeID index: _id_ dup key: { _id: "nisi" }]"| 

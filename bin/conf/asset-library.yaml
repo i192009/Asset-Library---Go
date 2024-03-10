@@ -1,0 +1,59 @@
+env: offline
+namespace: local
+debug: true
+
+service:
+  name: asset-library
+  uuid: asset-library
+
+mongo:
+  - connectstring: mongodb://localhost
+    database: assetLibrary
+    default: true
+
+redis:
+  host: localhost
+  port: 6379
+  database: 0
+  default: true
+
+log:
+  path: logs
+  file: asset-library.log
+  level: debug
+
+web:
+  listen_addr:
+  listen_port: 8085
+  path_prefix: /assetManage
+  trusted_proxies: []
+
+grpc:
+  listen_addr:
+  listen_port: 5004
+  connections:
+     user: localhost:9602
+     storage: localhost:9702
+     organization:
+
+http:
+  connections:
+    realink: http://localhost:6080
+
+realink:
+  marks: dev,qa,release
+
+obs:
+  endpoint: obs.cn-east-3.myhuaweicloud.com
+  access_key: VKQA5OEEYYYF3XE7JSAD
+  secret_key: EznD8ZfHFTOq9wPbh2vCaalqlt30voUCf5A1ba27
+  dl_bucket: zetaverse
+  ul_bucket: zetaverse
+  ul_folder: local
+  scope_id: 4
+  instance:
+    "1002": re-link
+    "1056": re-link
+    "1000": re-link
+    "1080": re-link
+    "1081": re-link

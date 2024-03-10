@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="Go" enabled="true" />
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/scripts/node_modules/@mongodb-js" />
+      <excludeFolder url="file://$MODULE_DIR$/scripts/node_modules/@types" />
+      <excludeFolder url="file://$MODULE_DIR$/scripts/node_modules/bson" />
+      <excludeFolder url="file://$MODULE_DIR$/scripts/node_modules/memory-pager" />
+      <excludeFolder url="file://$MODULE_DIR$/scripts/node_modules/mongodb" />
+      <excludeFolder url="file://$MODULE_DIR$/scripts/node_modules/mongodb-connection-string-url" />
+      <excludeFolder url="file://$MODULE_DIR$/scripts/node_modules/punycode" />
+      <excludeFolder url="file://$MODULE_DIR$/scripts/node_modules/sparse-bitfield" />
+      <excludeFolder url="file://$MODULE_DIR$/scripts/node_modules/tr46" />
+      <excludeFolder url="file://$MODULE_DIR$/scripts/node_modules/undici-types" />
+      <excludeFolder url="file://$MODULE_DIR$/scripts/node_modules/webidl-conversions" />
+      <excludeFolder url="file://$MODULE_DIR$/scripts/node_modules/whatwg-url" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

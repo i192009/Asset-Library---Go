@@ -1,0 +1,34 @@
+[L]2023-10-19 00:33:43.880|26_42155144074246145| DBG |DESKTOP-4PAEICH|pool-1-thread-5|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-10-19 00:33:43.879|27_42155144124577793| DBG |DESKTOP-4PAEICH|pool-1-thread-6|bus.go|96|func1|System|Nil|"call ExitRpcServer args = []"| 
+[L]2023-10-19 00:33:43.880|28_42155144124643329| DBG |DESKTOP-4PAEICH|pool-1-thread-7|bus.go|96|func1|System|Nil|"call Quit args = [interrupt]"| 
+[L]2023-10-19 00:33:43.879|29_42155144124708865| DBG |DESKTOP-4PAEICH|pool-1-thread-8|bus.go|96|func1|System|Nil|"call ExitWebServer args = []"| 
+[L]2023-10-19 00:33:43.922|30_42155144141355009| DBG |DESKTOP-4PAEICH|pool-1-thread-5|bus.go|100|1|System|Nil|"call Quit error, stack frames :
+    Error Message: reflect: Call with too many input arguments
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:100 (0x16e102a)
+    C:/Program Files/Go/src/runtime/panic.go:914 (0x60b11e)
+    C:/Program Files/Go/src/reflect/value.go:442 (0x6e9d8d)
+    C:/Program Files/Go/src/reflect/value.go:380 (0x6e7ef8)
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:104 (0x16e0f84)
+    C:/Program Files/Go/src/runtime/asm_amd64.s:1650 (0x63bd20)
+"| 
+[L]2023-10-19 00:33:43.924|31_42155144141420545| DBG |DESKTOP-4PAEICH|pool-1-thread-7|bus.go|100|1|System|Nil|"call Quit error, stack frames :
+    Error Message: reflect: Call with too many input arguments
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:100 (0x16e102a)
+    C:/Program Files/Go/src/runtime/panic.go:914 (0x60b11e)
+    C:/Program Files/Go/src/reflect/value.go:442 (0x6e9d8d)
+    C:/Program Files/Go/src/reflect/value.go:380 (0x6e7ef8)
+    C:/Users/92346/Desktop/zixel/asset-library/framework/bus/bus.go:104 (0x16e0f84)
+    C:/Program Files/Go/src/runtime/asm_amd64.s:1650 (0x63bd20)
+"| 
+[L]2023-10-19 00:33:43.928|32_42155144141486081| DBG |DESKTOP-4PAEICH|pool-1-thread-9|bus.go|96|func1|System|Nil|"call log.info args = [grpc server is closeing...]"| 
+[L]2023-10-19 00:33:43.930|33_42155144158132225| DBG |DESKTOP-4PAEICH|pool-1-thread-10|bus.go|96|func1|System|Nil|"call log.error args = [http: Server closed]"| 
+[L]2023-10-19 00:33:43.932|34_42155144158197761| DBG |DESKTOP-4PAEICH|pool-1-thread-11|bus.go|96|func1|System|Nil|"call WebServerExited args = []"| 
+[L]2023-10-19 00:33:43.932|35_42155144158263297| DBG |DESKTOP-4PAEICH|pool-1-thread-12|bus.go|96|func1|System|Nil|"call log.info args = [web server is closed.]"| 
+[L]2023-10-19 00:33:43.930|36_42155144158328833| INF |DESKTOP-4PAEICH|pool-1-thread-9|value.go|596|call|System|Nil|"grpc server is closeing..."| 
+[L]2023-10-19 00:33:43.934|37_42155144158394369| INF |DESKTOP-4PAEICH|pool-1-thread-12|value.go|596|call|System|Nil|"web server is closed."| 
+[L]2023-10-19 00:33:43.930|38_42155144158459905| ERR |DESKTOP-4PAEICH|pool-1-thread-10|value.go|596|call|System|Nil|"http: Server closed"| 
+[L]2023-10-19 00:33:43.934|39_42155144158525441| DBG |DESKTOP-4PAEICH|pool-1-thread-13|bus.go|96|func1|System|Nil|"call log.info args = [Web server is closed. exit code =  0]"| 
+[L]2023-10-19 00:33:43.937|40_42155144158590977| INF |DESKTOP-4PAEICH|pool-1-thread-13|value.go|596|call|System|Nil|"Web server is closed. exit code = 0"| 
+[L]2023-10-19 00:33:44.057|41_42155144359458817| DBG |DESKTOP-4PAEICH|pool-1-thread-14|bus.go|96|func1|System|Nil|"call log.info args = [grpc server is closed.]"| 
+[L]2023-10-19 00:33:44.058|42_42155144359524353| INF |DESKTOP-4PAEICH|pool-1-thread-14|value.go|596|call|System|Nil|"grpc server is closed."| 
+[L]2023-10-19 00:33:44.058|43_42155144359589889| DBG |DESKTOP-4PAEICH|pool-1-thread-15|bus.go|96|func1|System|Nil|"call RpcServerExited args = []"| 
